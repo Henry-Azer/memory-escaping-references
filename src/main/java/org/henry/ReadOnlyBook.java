@@ -1,2 +1,13 @@
-package org.henry;public interface ReadOnlyBook {
+package org.henry;
+
+public interface ReadOnlyBook {
+    int getId();
+
+    String getTitle();
+
+    String getAuthor();
+
+    String toString();
+
+    Price getPrice();
 }
